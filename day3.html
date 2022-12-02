@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* li {
+            display: inline-block;
+        } */
+
+        .middle {
+            margin-left: 25px;
+        }
+
+        li:first-child {
+            width: 120px;
+
+        }
+
+        li:last-child {
+            width: 200px;
+            text-align: center;
+        }
+
+        .round_btn {
+            border: none;
+            border-radius: 16px;
+            padding: 6px;
+            background-color: red;
+            color: white;
+
+
+        }
+
+        .part{
+            display: inline-block;
+            height: 500px;
+        }
+
+        .round-btn-large {
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 16px;
+            padding: 10px 28px;
+        }
+        .part:first-child{
+            vertical-align: middle;
+            padding-left: 42px;
+            width: 50%;
+        }
+        .section-holder img{
+            vertical-align: middle;
+            margin-left: 10px;
+            height: 30px;
+            width: 30px;
+           background-color: #c7c0b7 ;
+        }
+        section{
+            background-color: #c7c0b7;
+        }
+        #img{
+            margin-top: 20px;
+        }
+        ol{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+            /* width: fit-content;
+    margin: auto;
+} */
+        
+    </style>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ol>
+                <li> Yummy<span>.</span></li>
+                <li class="middle">Home </li>
+                <li class="middle">About</li>
+                <li class="middle">Menu</li>
+                <li class="middle">Events</li>
+                <li class="middle">Chef</li>
+                <li class="middle">Gallery</li>
+                <li class="middle">Drop Down</li>
+                <li class="middle">Contact</li>
+                <li>
+                    <button class="round_btn">Book A Table</button>
+                </li>
+
+            </ol>
+        </nav>
+    </header>
+
+    <section>
+
+        <div class="part">
+            <h1>Enjoy Your healthy</h1>
+            <h1>Delious Food</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi perferendis, molestias suscipit quam,
+                praesentium corporis quibusdam .</p>
+            <div class="section-holder">
+                <button class="round-btn-large">book a ticket</button>
+                <img src="videoicon.jpg">
+                <b>Watch Video</b>
+
+            </div>
+
+        </div>
+        <div class="part">
+            <img id="img" src="food.jpg">
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>

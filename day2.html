@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header {
+            background-color: green;
+            height: 120px;
+
+
+        }
+
+        aside {
+            width: 150px;
+            height: 300px;
+            background-color: blue;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 10px;
+
+
+
+        }
+
+        section {
+            width: 1100px;
+            height: 500px;
+            display: inline-block;
+            background-color: red;
+            margin-top: 10px;
+        }
+
+        .yellow {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            background-color: yellow;
+            margin: 10px 10px;
+
+
+        }
+
+        #purple {
+            width: 900px;
+            height: 100px;
+            background-color: purple;
+            position: relative;
+            top: 30px;
+
+
+        }
+
+        section .yellow:nth-child(2) {
+            background-color: skyblue;
+
+        }
+
+        /* 
+            li:nth-child(even){
+            color:blue ;
+            } */
+
+        /* for  gap of 2 */
+
+        ol li:nth-child(4n+3) {
+
+            color: red;
+        }
+
+
+        ol li:nth-child(4n+4) {
+
+            color: red;
+        }
+
+
+
+        ol li:nth-child(4n+1) {
+
+            color: blue;
+        }
+
+        ol li:nth-child(4n+2) {
+
+            color: blue;
+        }
+
+
+
+
+        /* for 2nd list */
+        /* for  gap of 2 */
+
+        ul li:nth-child(4n+3) {
+
+            color: red;
+        }
+
+
+        ul li:nth-child(4n+4) {
+
+            color: red;
+        }
+
+        /* for coming next 1 only */
+        ul li:nth-child(4n+4)+li {
+
+            color: blue;
+        }
+
+        /* for coming next all */
+        /* ul li:nth-child(4n+4)~li {
+
+            color: blue;
+        } */
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <header></header>
+
+    <aside></aside>
+    <section>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div class="yellow"></div>
+        <div id="purple"></div>
+    </section>
+
+    <footer></footer>
+
+
+    <ol>
+        <li>lahore</li>
+        <li>faisalbad</li>
+        <li>karachi</li>
+        <li>chishtian</li>
+        <li>bahawalpur</li>
+        <li>quetta</li>
+        <li>peshawar</li>
+        <li>sibbi</li>
+        <li>bahawalnagar</li>
+        <li>vehari</li>
+        <li>islamabad</li>
+        <li>gojra</li>
+        <li>sargodha</li>
+        <li>nawabshah</li>
+
+
+
+    </ol>
+
+
+
+    <ul>
+        <li>lahore</li>
+        <li>faisalbad</li>
+        <li>karachi</li>
+        <li>chishtian</li>
+        <li>bahawalpur</li>
+        <li>quetta</li>
+        <li>peshawar</li>
+        <li>sibbi</li>
+        <li>bahawalnagar</li>
+        <li>vehari</li>
+        <li>islamabad</li>
+        <li>gojra</li>
+        <li>sargodha</li>
+        <li>nawabshah</li>
+
+
+
+    </ul>
+
+
+
+
+
+</body>
+
+</html>
